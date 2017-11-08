@@ -1,0 +1,92 @@
+body{
+	margin:0;
+	padding: 0;
+}
+ul{
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  background-color: #026AA7;
+}
+header li{
+  	display: inline-block;
+  	text-align: center;
+  	background-color: #fff;
+
+}
+.logo{
+	vertical-align: center;
+}
+header li:first-child{
+	width: 100px;
+	padding: 10px;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+}
+header li:nth-child(0n+2){
+	width: 220px;
+	padding: 9px;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+}
+header li:nth-child(3){
+	width: 800px;
+	padding: 9px;
+	text-align: center;
+		background-color: transparent;
+	vertical-align: center; 
+}
+
+.full{
+	padding: 20px;
+}
+#perfil{
+	width: 30px;
+	height: 30px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border:0;
+}
+header li:last-child{
+	background-color: transparent;
+}
+ol {
+	list-style: none;
+  	padding: 5px;
+  	margin-top: 10px;
+}
+section li {
+	float: left;
+}
+section li:first-child{
+	padding-left: 20px;
+	margin-right: 10px;
+}
+.fa-star-o{
+	padding-right: 20px;
+}
+#btn{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border:none;
+	font-size: 1em;
+}
+#datos {
+	width: 300px;
+	display: inline-block;
+}
+#cont div{
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+p{
+	display: inline-block;
+	margin-left: 0.5em
+}

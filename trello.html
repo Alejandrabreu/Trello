@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trello</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/trello.css">
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><i class="fa fa-trello" aria-hidden="true">Tableros</i></li>
+			<li><input type="string"><i class="fa fa-search" aria-hidden="true"></i></input></li>
+			<li><img class="logo" src="assets/images/trello-logo.png"></li>
+			<li><i class=" fa fa-plus" aria-hidden="true"></i></li>
+			<li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+			<li><i class="fa fa-bell" aria-hidden="true"></i></li>
+			<li><img class="perfil" id="perfil" src="assets/images/perfil.jpg"></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<nav>
+		<ol>
+			<li>Tablero - Retos del Código</li>
+			<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+			<li><i class="fa fa-lock" aria-hidden="true">  Privado</i></li>
+		</ol>
+	</nav>
+</section>
+<section id="datos">
+	<form name="list" id="list">
+		Añadir una Lista...<input type="text" name="newtask" value="" maxlength="512">
+		<button type="button" id="btn" onclick="add()">Añadir una Lista...</button>
+
+		<!--<input class="listnew" type="text" placeholder="Añadir una lista..."></input>
+		<input class="save" type="submit" value="Guardar">
+	</form> 
+	<textarea class="text" id="newtask" placeholder="Añadir una lista..."></textarea>-->
+	<div id="cont"></div>
+</section>
+<script type="text/javascript" src="js/trello.js"></script>
+</body>
+</html>
